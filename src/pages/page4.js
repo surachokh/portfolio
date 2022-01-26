@@ -1,9 +1,8 @@
-import { Typography } from "@mui/material";
-import { Box } from "@mui/system";
+import { Box, Typography } from "@mui/material";
 import React, { Component } from "react";
-import kbtgPicture from "../KBTG-logo-trans-square-web.png";
+import scbPicture from "../Tech-X-logo_LightBG-1024x344 (1).png";
 
-export default class Page3 extends Component {
+export default class Page4 extends Component {
   render() {
     return (
       <Box
@@ -24,7 +23,7 @@ export default class Page3 extends Component {
               paddingLeft: 20,
             }}
           >
-            <img src={kbtgPicture} alt="KBTG" style={{ height: 450 }} />
+            <img src={scbPicture} alt="KBTG" style={{ height: 200 }} />
           </Box>
         </Box>
         <Box
@@ -48,13 +47,13 @@ export default class Page3 extends Component {
             </Typography>
             <br />
             <Typography sx={{ color: "white", fontSize: 24 }}>
-              KBTG Group
+              SCB Tech X
             </Typography>
             <br />
             <Typography sx={{ color: "white", fontSize: 24 }}>
-              I joined KBTG Group as software engineer for 1 year. My
-              responsible is handle Front end development using Angular2 as a
-              main language.
+              I join SCB Tech X as a associate software engineer. My responsible
+              is handle backend issue and onboarding config from partners of SCB
+              using NodeJS.
             </Typography>
           </Box>
         </Box>
