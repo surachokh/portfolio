@@ -9,10 +9,11 @@ export default class Page2 extends Component {
           display: "flex",
           justifyContent: "center",
           height: "100vh",
-          alignItems: 'center'
+          alignItems: 'center',
+          backgroundColor: '#000123'
         }}
       >
-        <Typography>Page 2</Typography>
+        <Typography sx={{color: 'white'}}>Page 2</Typography>
       </Box>
     )
   }

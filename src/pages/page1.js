@@ -9,10 +9,11 @@ export default class Page1 extends Component {
           display: "flex",
           justifyContent: "center",
           height: "100vh",
-          alignItems: 'center'
+          alignItems: 'center',
+          backgroundColor: '#000123'
         }}
       >
-        <Typography>Page 1</Typography>
+        <Typography sx={{color: 'white'}}>Page 1</Typography>
       </Box>
     );
   }
