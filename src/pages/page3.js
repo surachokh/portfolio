@@ -1,8 +1,9 @@
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
+import { Box } from "@mui/system";
 import React, { Component } from "react";
-import profilePicture from '../0916 สุรโชค เหมะธุลิน (1).png'
+import kbtgPicture from "../KBTG-logo-trans-square-web.png";
 
-export default class Page2 extends Component {
+export default class Page3 extends Component {
   render() {
     return (
       <Box
@@ -23,23 +24,37 @@ export default class Page2 extends Component {
               paddingLeft: 20,
             }}
           >
-            <img src={profilePicture} alt="Profile" style={{height: 450}}/>
+            <img src={kbtgPicture} alt="KBTG" style={{ height: 450 }} />
           </Box>
         </Box>
-        <Box sx={{ display: "flex", flexGrow: 1, alignItems: "center" , maxWidth: '100vh'}}>
+        <Box
+          sx={{
+            display: "flex",
+            flexGrow: 1,
+            alignItems: "center",
+            maxWidth: "100vh",
+          }}
+        >
           <Box
             sx={{
               display: "flex",
-              flexDirection: 'column',
+              flexDirection: "column",
               flexGrow: 0.5,
               justifyContent: "center",
             }}
           >
-            <Typography sx={{ color: "white", fontSize: 96 }}>
-              About me
+            <Typography sx={{ color: "white", fontSize: 64 }}>
+              Work experience
             </Typography>
+            <br />
             <Typography sx={{ color: "white", fontSize: 24 }}>
-                I am software engineer that specialize on front end development. I graduated in Computer Engineering with 2.60 GPA. I am single and my military status is extempts. 
+              KBTG Group
+            </Typography>
+            <br />
+            <Typography sx={{ color: "white", fontSize: 24 }}>
+              I joined KBTG Group as software engineer for 1 year. My
+              responsible is handle Front end development using Angular2 as a
+              main language.
             </Typography>
           </Box>
         </Box>
